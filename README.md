@@ -2,19 +2,21 @@
 
 
 ## i. Introduction to the Problem and the Solution
-
+<p align="justify">
 Remote Agriculture System is an ESP32 based automated system to monitor the status of your plants in order to provide them with the most ideal environment in order to maximize their growth. This system will also provide remote control uses such as turning on the light and pumping water to your plants using Blynk.
-
+<p align="justify">
 The absence of a reliable monitoring system leads to the inefficient use of resources such as water and energy, reducing the effectiveness of farming practices. Additionally, modern farmers are increasingly asked to be environmentally friendly, using fewer resources and taking care of the environment. The existing tools are not well-equipped to meet these new demands.
-
+<p align="justify">
 Therefore, there is a genuine need for an advanced system that provides farmers with real-time information about their crops. This system should be user-friendly and assist farmers in making informed decisions to protect their crops and adopt sustainable practices. The proposed solution is the "Remote Agriculture System," utilizing a smart device called the ESP32 and various sensors to give farmers a comprehensive understanding of their crops, making farming more intelligent and resource-efficient.
-
+</p>
 
 ## ii. Hardware Design and Implementation Details
-
+<p align="justify">
 The hardware and design implementation of the Remote Agriculture Systems involves several components and considerations to ensure accurate monitoring and reliable performance. The following are the key hardware components :
+</p>
 
 ### Components:
+
 **1. ESP32**
 <p align="center" width="100%">
     <img width="33%" src="./img/esp32.jpg"> 
@@ -61,28 +63,29 @@ Project Schematic :
 
 
 ## iii. Network Infrastructure
-
-Remote Agriculture System use a software called Blynk, in which in order to connect to Blynk we need to connect to the WiFi first. And we use this to based our network infrastructure, the communicatiom between ESP32, Blynk Cloud, and Blynk application are using TCP protocol. To make it easier to understand here is our network infrastructure schematic : 
+<p align="justify">
+Remote Agriculture System use a software called Blynk, in which in order to connect to Blynk we need to connect to the WiFi first. And we use this to based our network infrastructure, the communicatiom between ESP32, Blynk Cloud, and Blynk application are using TCP protocol. To make it easier to understand here is our network infrastructure schematic : </p>
 <p align="center" width="100%">
     <img width="33%" src="./img/infrastructure.png">
 </p>
-
-And for us to connect to the WiFi network we need to fill in SSID and pass credentials like this : 
+<p align="justify">
+And for us to connect to the WiFi network we need to fill in SSID and pass credentials like this : </p>
 <p align="center" width="100%">
     <img width="33%" src="./img/wifi.png">
 </p>
-
-And lastly in order to connect to Blynk, we need to use these credentials :
+<p align="justify">
+And lastly in order to connect to Blynk, we need to use these credentials :</p>
 <p align="center" width="100%">
     <img width="33%" src="./img/blynk.png">
 </p>
-
+<p align="justify">
 Now after everything has been setup correctly, communication between Blynk and ESP32 has been established, and we just need to add our own datastream that will display our needs such as temperature, soil moisture and light intensity.
-
+</p>
 
 ## iv. Software Implementation Details
-
+<p align="justify">
 Discuss the software aspects of your project. This includes the programming languages, frameworks, and libraries used. Provide instructions on how to set up and run the software.
+</p>
 
 ## v. Test Results and Performance Evaluation
 
@@ -114,13 +117,14 @@ Notes:
 * G = Gelap
 
 ## vi. Conclusion and Future Work
-
+<p align="justify">
 Remarkably, the system effectively fulfilled its primary objective of automating agriculture monitoring, delivering dependable measurements of crucial parameters like moisture levels, temperature, and light level. User acceptance testing garnered positive feedback, indicating a high level of accuracy. The impact of the system extends to improved agricultural practices, significant time savings, and a notable reduction in the risks associated with plant damage.
+</p>
 
 ### Future Work
-Remote Agriculture System even though already fulfilled it's primary goals, but it can still improve further such as : 
-1. Upscale the project so it can accommodate bigger farms.
-2. Incorpration more control over the system such as turning on the light manually and pouring water manually.
+Even though Remote Agriculture System had already fulfilled it's primary goals, further improvements can still be done, such as : 
+1. Upscaling the project so it can accommodate bigger farms.
+2. Incorporate more control over the system such as turning on the light manually and pouring water manually.
 
 
 # How to Run
