@@ -15,12 +15,36 @@ Therefore, there is a genuine need for an advanced system that provides farmers 
 The hardware and design implementation of the Remote Agriculture Systems involves several components and considerations to ensure accurate monitoring and reliable performance. The following are the key hardware components :
 
 ### Components:
-**1. ESP32 **
+**1. ESP32**
+<p align="center" width="100%">
+    <img width="33%" src="./img/esp32.jpg"> 
+</p>
+
 **2. YL39 sensor**
+<p align="center" width="100%">
+    <img width="33%" src="./img/yl39.jpg"> 
+</p>
+
 **3. DHT11 sensor**
+<p align="center" width="100%">
+    <img width="33%" src="./img/dht11.jpg"> 
+</p>
+
 **4. 2 LEDs**
+<p align="center" width="100%">
+    <img width="33%" src="./img/led.jpg"> 
+</p>
+
 **5. LDR Module**
+<p align="center" width="100%">
+    <img width="33%" src="./img/led.jpg"> 
+</p>
+
 **6. Water Pump**
+<p align="center" width="100%">
+    <img width="33%" src="./img/waterpump.jpg"> 
+</p>
+
 
 Sensors:
 
@@ -29,6 +53,8 @@ Sensors:
 **b. DHT11:** A temperature and humidity sensor, such as the DHT series sensor, is utilized to measure ambient temperature and humidity. 
 
 **c. LDR:** A light-dependent resistor (LDR) is used to measure the intensity of light in the plant's environment. 
+
+Project Schematic : 
 
 
 ## iii. Network Infrastructure
@@ -43,7 +69,15 @@ Discuss the software aspects of your project. This includes the programming lang
 
 All individual components pass the unit testing phase successfully, YL39 moisture sensor is able to pick up accurate moisture level readings, the LDR can catch light reading pretty accurately, DHT11 can accurately update temperature in real time. And each LED and water pump is working as expected as well.
 
+<p align="center" width="100%">
+    <img width="33%" src="./img/unittesting.png"> 
+</p>
+
 The integration testing phase verified that the components of the Remote Agriculture System were effectively integrated. Data flow between modules was smooth, and the system provided accurate and real-time readings of environmental parameters for the plant such as its temperature, soil moisture, and the light reading.
+
+<p align="center" width="100%">
+    <img width="33%" src="./img/integrationtesting.png"> 
+</p>
 
 During the user acceptance testing, the Remote Agriculture System exhibited successful performance when all the components were connected and operated together, simulating a real-world environment. The system effectively produced accurate readings, displaying the environmental temperature on Blynk. Additionally, the moisture level and light level were successfully presented on the display, as evidenced by the status indicators. This outcome affirms the system's capability to provide relevant and reliable data in diverse environmental conditions.
 
