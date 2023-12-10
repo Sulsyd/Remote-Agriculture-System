@@ -62,7 +62,22 @@ Project Schematic :
 
 ## iii. Network Infrastructure
 
-Describe the network architecture used in your project. Include information about how different components communicate with each other. Highlight any networking protocols or technologies used.
+Remote Agriculture System use a software called Blynk, in which in order to connect to Blynk we need to connect to the WiFi first. And we use this to based our network infrastructure, the communicatiom between ESP32, Blynk Cloud, and Blynk application are using TCP protocol. To make it easier to understand here is our network infrastructure schematic : 
+<p align="center" width="100%">
+    <img width="33%" src="./img/infrastructure.png
+</p>
+
+And for us to connect to the WiFi network we need to fill in SSID and pass credentials like this : 
+<p align="center" width="100%">
+    <img width="33%" src="./img/wifi.png
+</p>
+
+And lastly in order to connect to Blynk, we need to use these credentials :
+<p align="center" width="100%">
+    <img width="33%" src="./img/blynk.png
+</p>
+
+Now after everything has been setup correctly, communication between Blynk and ESP32 has been established, and we just need to add our own datastream that will display our needs such as temperature, soil moisture and light intensity.
 
 ## iv. Software Implementation Details
 
