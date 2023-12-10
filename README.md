@@ -85,15 +85,12 @@ Now after everything has been setup correctly, communication between Blynk and E
 ## iv. Software Implementation Details
 <p align="justify">
 
-### Applications Used in This Project
+The presented code embodies the software development of a remote agriculture system, adept at monitoring and managing environmental conditions through the use of an ESP32 microcontroller. The integration with the Blynk platform is a pivotal aspect, enabling the creation of a remote user interface for real-time data visualization. The program establishes a Wi-Fi connection for seamless communication with the Blynk server. Employing a task-based architecture with FreeRTOS, the code efficiently manages concurrent operations. Three distinct tasks, namely readLDRState, readDHTSensor, and checkSoilMoisture, focus on monitoring light conditions, temperature, and soil moisture, respectively. Sensors such as the DHT22 for temperature and soil moisture sensors provide crucial environmental data. Actuators, in the form of LEDs, respond to environmental changes, with the LED_PIN adjusting based on ambient light, and the TEMP_LED_PIN responding to temperature thresholds. Additionally, two LEDs (SOIL_LED_PIN_1 and SOIL_LED_PIN_2) signify different soil moisture levels. Blynk.virtualWrite() statements facilitate the real-time update of virtual pins on the Blynk app, ensuring seamless data visualization. Intentional delays within the tasks control the frequency of sensor readings. Serial communication aids in debugging by providing insights into sensor readings and system states. The setup() function initializes crucial components, including serial communication, Wi-Fi connection, and Blynk integration, while GPIO pins are configured based on connected devices. The loop() function is deliberately kept minimal, as the tasks are designed to run concurrently, optimizing the system's responsiveness and overall performance. In essence, the software orchestrates a comprehensive ecosystem, integrating sensors, actuators, and remote visualization to facilitate effective remote agriculture management.
 
-#### Arduino Uno
-<p align="justify">
-In this project, we used Arduino Uno which is an open-source microcontroller board that serves as a versatile and user-friendly platform for electronics and programming projects. Built around the ATmega328P microcontroller, it features a range of digital and analog pins, USB connectivity, and easy programmability using the Arduino IDE. Widely embraced by hobbyists and developers, the Arduino Uno facilitates projects spanning from basic LED interactions to more complex endeavors such as robotics and IoT applications. Its accessibility, robust community support, and open-source nature contribute to its popularity as an entry-level board for those exploring the world of embedded systems and electronic prototyping.
+Below is the flowchart of the program
+<p align="center" width="100%">
+    <img width="33%" src="./img/flowchart.png"> 
 </p>
-
-#### Blynk 
-
 
 ## v. Test Results and Performance Evaluation
 
