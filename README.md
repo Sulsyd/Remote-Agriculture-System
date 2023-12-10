@@ -137,7 +137,7 @@ Even though Remote Agriculture System had already fulfilled it's primary goals, 
 
 # How to Run
 
-Include instructions on how to set up and run your project. List any dependencies and provide step-by-step guidance for users or developers who want to try your solution.
+You can check on our User's Manual Guide in order to run the system.
 
 # Contributors
 
