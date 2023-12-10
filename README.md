@@ -134,7 +134,7 @@ Even though Remote Agriculture System had already fulfilled it's primary goals, 
 
 # How to Run
 
-You can check on our User's Manual Guide in order to run the system.
+You can check on our [User's Manual Guide](https://github.com/Sulsyd/Remote-Agriculture-System/blob/main/User's%20Manual%20Guide.pdf) in order to run the system.
 
 # Contributors
 
