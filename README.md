@@ -84,8 +84,16 @@ Now after everything has been setup correctly, communication between Blynk and E
 
 ## iv. Software Implementation Details
 <p align="justify">
-Discuss the software aspects of your project. This includes the programming languages, frameworks, and libraries used. Provide instructions on how to set up and run the software.
+
+### Applications Used in This Project
+
+#### Arduino Uno
+<p align="justify">
+In this project, we used Arduino Uno which is an open-source microcontroller board that serves as a versatile and user-friendly platform for electronics and programming projects. Built around the ATmega328P microcontroller, it features a range of digital and analog pins, USB connectivity, and easy programmability using the Arduino IDE. Widely embraced by hobbyists and developers, the Arduino Uno facilitates projects spanning from basic LED interactions to more complex endeavors such as robotics and IoT applications. Its accessibility, robust community support, and open-source nature contribute to its popularity as an entry-level board for those exploring the world of embedded systems and electronic prototyping.
 </p>
+
+#### Blynk 
+
 
 ## v. Test Results and Performance Evaluation
 
