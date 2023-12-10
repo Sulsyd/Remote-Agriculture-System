@@ -37,7 +37,7 @@ The hardware and design implementation of the Remote Agriculture Systems involve
 
 **5. LDR Module**
 <p align="center" width="100%">
-    <img width="33%" src="./img/led.jpg"> 
+    <img width="33%" src="./img/ldr.jpg"> 
 </p>
 
 **6. Water Pump**
@@ -55,6 +55,9 @@ Sensors:
 **c. LDR:** A light-dependent resistor (LDR) is used to measure the intensity of light in the plant's environment. 
 
 Project Schematic : 
+<p align="center" width="100%">
+    <img width="33%" src="./img/hardaware.png"> 
+</p>
 
 
 ## iii. Network Infrastructure
